@@ -1,4 +1,5 @@
 USE playstore_db;
+
 CREATE TABLE apps_data (
     app_name VARCHAR(255),
     developer VARCHAR(255),
@@ -10,6 +11,7 @@ CREATE TABLE apps_data (
     app_type VARCHAR(50),
     price VARCHAR(50)
 );
+
 SELECT app_name FROM apps_data;
 
 SELECT * FROM apps_data LIMIT 10;
