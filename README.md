@@ -13,7 +13,7 @@ The raw data contained several inconsistencies that prevented mathematical analy
 * **Database:** MySQL (Data Cleaning & Analysis)
 * **Visualization:** Google Sheets
 * **Version Control:** GitHub
-* **SQL Script:** [View full cleaning and analysis code here](scripts/play_store_analysis.sql) 📂
+* **SQL Script:** [View full cleaning and analysis code here](scripts/cleaing_and_analysis.sql) 📂
 
 ## Key SQL Snippets
 One of the most complex parts was handling the varying suffixes in the downloads column:
