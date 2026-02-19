@@ -13,6 +13,7 @@ The raw data contained several inconsistencies that prevented mathematical analy
 * **Database:** MySQL (Data Cleaning & Analysis)
 * **Visualization:** Google Sheets
 * **Version Control:** GitHub
+* **SQL Script:** [View full cleaning and analysis code here](scripts/play_store_analysis.sql) 📂
 
 ## Key SQL Snippets
 One of the most complex parts was handling the varying suffixes in the downloads column:
@@ -26,3 +27,13 @@ WHERE downloads LIKE '%M';
 
 ### Top 5 Most Downloaded App Categories
 ![Top 5 Categories](scripts/play_store_most_downloaded_apps.png)
+
+### 💰 Revenue Model: Market Dominance
+I compared the total downloads for **Free** vs. **Paid** apps. While I attempted to visualize this in a bar chart, the dominance of Free apps is so extreme (99.96%) that the Paid apps effectively disappear on a standard scale.
+
+| App Type | Total Downloads | Market Share (Downloads) |
+| :--- | :--- | :--- |
+| **Free** | 249,500,000,000 | **99.96%** |
+| **Paid** | 89,000,000 | **0.04%** |
+
+**💡 Key Insight:** Free apps account for almost all user activity. This proves the Google Play Store is almost entirely a "Freemium" or Ad-Supported economy. For developers, charging an upfront price is a massive barrier to user acquisition compared to free alternatives.
