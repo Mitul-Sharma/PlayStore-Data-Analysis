@@ -85,3 +85,13 @@ SELECT
     SUM(downloads) AS total_downloads
 FROM apps_data
 GROUP BY CASE WHEN price = 0 THEN 'Free' ELSE 'Paid' END;
+
+SELECT 
+    developer,
+    COUNT(app_name) AS total_apps,
+    SUM(downloads) AS total_downloads,
+    AVG(price) AS average_app_price
+FROM apps_data
+GROUP BY developer
+ORDER BY total_downloads DESC
+LIMIT 10;
