@@ -37,3 +37,8 @@ I compared the total downloads for **Free** vs. **Paid** apps. While I attempted
 | **Paid** | 89,000,000 | **0.04%** |
 
 **💡 Key Insight:** Free apps account for almost all user activity. This proves the Google Play Store is almost entirely a "Freemium" or Ad-Supported economy. For developers, charging an upfront price is a massive barrier to user acquisition compared to free alternatives.
+
+### 🍩 Market Share: App Count per Category
+![Market Share Chart](scripts/market_share_doughnut.png)
+
+**Insight:** This chart shows the distribution of apps across the Top 10 categories. While some categories dominate downloads, others show higher competition in terms of total app volume.
