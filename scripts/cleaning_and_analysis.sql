@@ -85,10 +85,3 @@ SELECT
     SUM(downloads) AS total_downloads
 FROM apps_data
 GROUP BY CASE WHEN price = 0 THEN 'Free' ELSE 'Paid' END;
-
-SELECT 
-    app_type, 
-    COUNT(*) AS total_apps
-FROM apps_data
-WHERE app_type IS NOT NULL
-GROUP BY app_type;
