@@ -9,11 +9,11 @@ The raw data contained several inconsistencies that prevented mathematical analy
 * **Currency Formatting:** Stripped `$` symbols and handled null/empty values to cast the `price` column as a `DECIMAL` type.
 * **Data Integrity:** Used `ALTER TABLE` to modify column types once the data was sanitized, ensuring the database is optimized for performance.
 
-## Tech Stack
+## 🛠️ Tech Stack & Data
 * **Database:** MySQL (Data Cleaning & Analysis)
 * **Visualization:** Google Sheets
-* **Version Control:** GitHub
-* [View full cleaning and analysis code here](scripts/cleaning_and_analysis.sql)
+* **SQL Script:** [View SQL Script here](scripts/cleaning_and_analysis.sql) 📂
+* **Dataset:** [Raw Play Store Data](data/googleplaystore_raw.csv) 📊
 
 ## Key SQL Snippets
 One of the most complex parts was handling the varying suffixes in the downloads column:
