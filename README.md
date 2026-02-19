@@ -22,6 +22,12 @@ SET downloads = REPLACE(downloads, 'M', '') * 1000000
 WHERE downloads LIKE '%M';
 ```
 
-![Top 5 Most Downloaded App Categories](scripts/play_store_most_downloaded_apps.png)
+## Data Visualizations
+
+### Top 5 Most Downloaded App Categories
+![Top 5 Categories](scripts/play_store_most_downloaded_apps.png)
+
+### Revenue Model: Free vs. Paid Apps
+![Free vs Paid Distribution](scripts/free_paid_distribution.png)
 
 
