@@ -20,6 +20,7 @@ One of the most complex parts was handling the varying suffixes in the downloads
 UPDATE apps_data
 SET downloads = REPLACE(downloads, 'M', '') * 1000000
 WHERE downloads LIKE '%M';
+```
 
 ![Top 5 Most Downloaded App Categories](scripts/play_store_most_downloaded_apps.png)
 
