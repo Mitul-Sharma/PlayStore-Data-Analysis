@@ -21,6 +21,6 @@ UPDATE apps_data
 SET downloads = REPLACE(downloads, 'M', '') * 1000000
 WHERE downloads LIKE '%M';
 
-![Top 5 Most Downloaded App Categories](play_store_most_downloaded_apps.png)
+![Top 5 Most Downloaded App Categories](scripts/play_store_most_downloaded_apps.png)
 
 
